@@ -1,0 +1,203 @@
+@import url(null.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.main {
+  background-color: #F5F5F5;
+}
+.our-promise__container {
+  max-width: 1015px;
+  margin: 0 auto;
+}
+body {
+font-family: 'Roboto';
+line-height: 1.5;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 30px;
+}
+.our-promise__subtitle {
+  color: #5D62B5;
+  margin-bottom: 30px;
+}
+.our-promise__subtitle::before {
+  content: "";
+  position: absolute;
+  background: url(../img/mark.svg) no-repeat;
+  height: 100%;
+  width: 100%;
+  top: -2px;
+  left: 0;
+}
+.title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.our-promise__title {
+margin-bottom: 75px;
+}
+.blocks {
+  display: flex;
+  justify-content: space-around;
+}
+.block {
+  max-width: 235px;
+  position: relative;
+  margin-left: 82px;
+}
+.block__title {
+font-weight: 900;
+font-size: 19px;
+line-height: 1.37;
+color: #F2726F;
+margin-bottom: 18px;
+}
+.block__text {
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+.love-care::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_love.svg) no-repeat;
+  height: 100%;
+  width: 100%;
+  right: 90px;
+  top: 0;
+}
+.veterinarian::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_vet.svg) no-repeat;
+  height: 100%;
+  width: 100%;
+  right: 90px;
+  top: 0;
+}
+.cameras::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_stream.svg) no-repeat;
+  height: 100%;
+  width: 100%;
+  right: 90px;
+  top: 0;
+}
+.our-promise {
+  margin-bottom: 200px;
+}
+.our-impact__container {
+  max-width: 1095px;
+  margin: 0 auto;
+}
+.our-impact {
+  background: #29C3BE;;
+  color: #fff;
+  height: 608px;
+}
+.our-impact__content {
+  padding-top: 100px;
+}
+.our-impact__subtitle {
+  margin-bottom: 40px;
+}
+.our-impact__title {
+  margin-bottom: 100px;
+}
+.our-impact__subtitle::before {
+  content: "";
+  position: absolute;
+  background: url(../img/mark_white.svg) no-repeat;
+  height: 100%;
+  width: 100%;
+  top: -2px;
+  left: 0;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+.number {
+font-weight: 900;
+font-size: 36px;
+line-height: 1.17;
+}
+.name {
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  color: #5D62B5;
+  font-weight: 700;
+}
+.item {
+  position: relative;
+}
+.puppy::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_duckling.svg) no-repeat;
+  height: 76px;
+  width: 76px;
+  top: -5px;
+  left: -90px;
+}
+.dogs::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_house.svg) no-repeat;
+  height: 76px;
+  width: 76px;
+  top: -5px;
+  left: -90px;
+}
+.pups::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_leash.svg) no-repeat;
+  height: 76px;
+  width: 76px;
+  top: -5px;
+  left: -90px;
+}
+.meals::before {
+  content: "";
+  position: absolute;
+  background: url(../img/dog_food_bowl.svg) no-repeat;
+  height: 76px;
+  width: 76px;
+  top: -5px;
+  left: -90px;
+}
+.our-impact__container {
+  position: relative;
+}
+.our-impact__container::after {
+  content: "";
+  background: url(../img/blob.png) no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 423px;
+  z-index: 0;
+}
+  .our-impact__container::before {
+    content: "";
+    background: url(../img/image.png) no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -75px;
+    left: 540px;
+    z-index: 1;
+  }
